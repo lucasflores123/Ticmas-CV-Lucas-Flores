@@ -1,0 +1,76 @@
+* {
+	margin: 2px;
+	box-sizing: border-box;
+	font-family: 'Courier New', Courier, monospace;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #454e5f;
+}
+
+.contenedor {
+	width: 70%;
+	min-width: 400px;
+	min-height: 1000px;
+	display: grid;
+	grid-template-columns: 60% 40%;
+	grid-template-rows: repeat(11, 9%);
+	padding: 15px;
+	border-radius: 3px;
+	background-color: #b9b9b9;
+	border: 2px solid #707070;
+	word-wrap: break-word;
+}
+
+.encabezado {
+	grid-column: 1 / -1;
+	grid-row: 1 / 2;
+	text-align: center;
+}
+
+.info {
+	grid-column: 1 / 2;
+	grid-row: 2 / 5;
+}
+:link{
+	text-decoration: none;
+}
+.foto {
+	display: grid;
+    place-items: center;
+	grid-column: 2 / -1;
+	grid-row: 2 / 5;
+}
+.habilidades{
+	grid-row: 5 / 12;
+}
+.educacion{
+	overflow: auto;
+	grid-row: 5 / 9;
+}
+.experiencia{
+	grid-row: 9 / 12;
+	overflow: auto;
+}
+.foto img {
+	width: 150px;
+	border-radius: 50%;
+}
+
+.experiencia,
+.habilidades,.info,.foto,.educacion {
+	background-color: #dbdada;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+.experiencia li,
+.habilidades li,.info li,.educacion li {
+	margin: 10px;
+}
+.expOculta,.eduOculta{
+	display: none;
+}
