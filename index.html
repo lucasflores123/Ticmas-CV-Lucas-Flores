@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>Curriculum Vitae</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="contenedor">
+		<div class="encabezado">
+			<h1>Juan Carlos Hernández Sánchez</h1>
+			<h3>Gerente de Ventas</h3>
+			<hr>
+		</div>
+		<div class="info">
+			<h2>Información personal</h2>
+			<ul>
+				<li><strong>Email:</strong> juan.hernandez@gmail.com</li>
+				<li><strong>Teléfono:</strong> +52 55 8765 4321</li>
+				<li><strong>Dirección:</strong> Calle 789, número 012, Ciudad de México, México</li>
+				<li><strong>LinkedIn:</strong> <a target="_blank" href="https://linkedin.com/in/juan-hernandez-sanchez">linkedin.com/in/juan-hernandez-sanchez</a> </li>
+			</ul>
+		</div>
+		<div class="foto">
+			<img src="img/perfil.jpg" alt="Foto">
+		</div>
+		<div class="educacion">
+			<h2>Educación</h2>
+			<ul>
+				<li>Licenciatura en Administración de Empresas, Universidad Nacional Autónoma de México (UNAM), Ciudad de México</li>
+				<li>Maestría en Dirección de Empresas, Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM), Ciudad de México</li>
+				<li class="eduOculta">Maestría en Administración de Empresas (MBA) en la Universidad de Harvard, Estados Unidos, con especialización en Finanzas.</li>
+				<li class="eduOculta">Licenciatura en Economía en la Universidad Nacional Autónoma de México (UNAM), con mención honorífica.</li>
+				<li class="eduOculta">Diplomado en Análisis Financiero y Bursátil en la Universidad Panamericana, México.</li>
+				<li class="eduOculta">Certificación en Gestión de Proyectos (PMP) del Project Management Institute (PMI).</li>
+			</ul>
+			<button class="botonEdu" onclick="mostrar('eduOculta', 'botonEdu')">Mostrar mas</button>
+		</div>
+		<div class="experiencia">
+			<h2>Experiencia laboral</h2>
+			<ul>
+				<li>Ejecutivo de Ventas en JKL Corporation, Ciudad de México</li>
+				<li>Gerente de Ventas en GHI Corporation, Ciudad de México</li>
+				<li>Especialista en Marketing en XYZ Agency, Ciudad de México</li>
+				<li class="expOculta">Gerente de Ventas en ABC Company, Ciudad de México</li>
+				<li class="expOculta">Gerente de Ventas en una empresa de tecnología en Ciudad de México, México.</li>
+				<li class="expOculta">Director Comercial en una empresa de servicios financieros en Monterrey, México.</li>
+				<li class="expOculta">Ejecutivo de Cuentas en una agencia de publicidad en Guadalajara, México.</li>
+			</ul>
+			<button class="botonExp" onclick="mostrar('expOculta', 'botonExp')">Mostrar mas</button>
+		</div>
+		<div class="habilidades">
+			<h2>Habilidades</h2>
+			<ul>
+				<li>Habilidad para resolver problemas</li>
+				<li>Trabajo en equipo</li>
+				<li>Comunicación efectiva</li>
+				<li>Creatividad</li>
+				<li>Liderazgo</li>
+				<li>Organización</li>
+			</ul>
+		</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
